@@ -1,0 +1,9 @@
+p{
+   text-decoration: none; 
+   color: rebeccapurple;
+}
+p>a{
+    color: red;
+    text-decoration: none;
+    cursor: col-resize;
+}

@@ -1,0 +1,12 @@
+tr>td{
+    color: red;
+    background-color: aqua;
+    border: 3px solid blueviolet;
+
+}
+tr{
+    border: 3px solid blueviolet;
+}
+table{
+    border: 3px solid blueviolet;
+}
