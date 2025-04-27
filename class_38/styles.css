@@ -1,0 +1,20 @@
+.item{
+    width: 62px;
+    height: 62px;
+    background-color: red;
+    margin: 1px;
+    border: 2px solid blue;
+}
+.container{
+    display: flex;
+    border: 2px solid magenta;
+    height: 88vh;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    align-content: normal;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+.grow{
+    flex-grow:4;
+}
