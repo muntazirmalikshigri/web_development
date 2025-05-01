@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+.malik{
+    width: 200px;
+    background-color: pink;
+    display: inline-flex;
+}

@@ -1,0 +1,9 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-image: url(malik.avif);
+    background-size: cover;
+    position:fixed;
+    right: 0px;
+    top: 50px;
+}

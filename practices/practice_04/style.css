@@ -1,0 +1,30 @@
+/* div {
+    background-color: aquamarine;
+}
+div p{
+    color: hsl(208, 90%, 48%);
+}
+div>ul{
+    color: brown;
+} 
+div+p+ul {
+    color: red; */
+
+h2 {
+    color: blue;
+}
+#malik {
+    color: red;
+}
+.myclass {
+    color: aquamarine;
+}
+div p{ 
+   background-color:red;
+}
+.para {
+    background-color: aquamarine;
+}
+p {
+    background-color: black;
+}

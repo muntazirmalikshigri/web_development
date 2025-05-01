@@ -1,0 +1,27 @@
+.malik {
+    color: red;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+.munna {
+    color: red;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+.last {
+    color:red;
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}

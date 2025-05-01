@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: dotted;
+    background-color: aquamarine;
+    text-decoration: underline dotted red;
+}
+h2 {
+    color: blue;
+    text-decoration: inherit;
+}

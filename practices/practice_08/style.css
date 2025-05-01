@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%; color: white;
+   
+}
+#navbar{
+    background-color: #261e1a;
+    height: 60px;
+    border: 5px;
+    border-color: azure;
+}
+button{
+   background-color: #e7e70e;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+#content {
+    height: 500px;
+}
+a {
+    margin-right: 150px;
+}
+.content {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.75);
+    display: inline-block;
+}
+.rizu {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,255,0,0.60);
+    display: inline-block;
+}
+.fakhru {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,0,255,0.60);
+    display: inline-block;
+}
+.footer{ 
+    background-color: #261e1a;
+}

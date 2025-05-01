@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    height: 400px;
+    border: solid 3px lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    border: solid 2px black;
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.one {
+    width: 900px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+.two{
+    width: 80px;
+    height: 50px; 
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}
