@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    
+        body {
+          margin: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: linear-gradient(to right, #4facfe, #00f2fe);
+          font-family: 'Poppins', sans-serif;
+        }
+    
+        .box {
+          width: 280px;
+          height: 280px;
+          background: rgba(255, 255, 255, 0.1);
+          border: 2px solid rgba(255, 255, 255, 0.2);
+          border-radius: 25px;
+          backdrop-filter: blur(15px);
+          -webkit-backdrop-filter: blur(15px);
+          box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          transition: all 0.4s ease;
+          position: relative;
+          overflow: hidden;
+        }
+    
+        .box::before {
+          content: '';
+          position: absolute;
+          width: 200%;
+          height: 200%;
+          background: linear-gradient(45deg, #ff6ec4, #7873f5, #4facfe, #00f2fe);
+          animation: rotate 6s linear infinite;
+          z-index: -1;
+          top: -50%;
+          left: -50%;
+          opacity: 0.3;
+          filter: blur(40px);
+        }
+    
+        @keyframes rotate {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+    
+        .icon {
+          font-size: 48px;
+          margin-bottom: 10px;
+          animation: bounce 1.5s infinite ease-in-out;
+        }
+    
+        @keyframes bounce {
+          0%, 100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
+        }
+    
+        .box:hover {
+          transform: scale(1.07);
+          box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+</head>
+<body>
+   
+        <div class="box">Hover Me</div>
+
+</body>
+</html>
