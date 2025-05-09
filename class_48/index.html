@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ball Bounce on Hover</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: magenta;
+    }
+
+    .box {
+      width: 300px;
+      height: 300px;
+      background:black;
+      border: 3px solid #333;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .ball {
+      width: 50px;
+      height: 50px;
+      background: crimson;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 20px;
+      left: calc(50% - 25px);
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover .ball {
+      animation: bounce 0.6s ease-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-100px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="ball"></div>
+  </div>
+</body>
+</html>
